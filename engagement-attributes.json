@@ -1,1 +1,24 @@
-// digital behaviours/metrics that define engagement levels
+{
+    "engagement_attributes": {
+        "login_frequency": {
+            "description": "Number of LMS logins per week",
+            "unit": "count/week"
+        },
+        "session_duration": {
+            "description": "Average time spent per session in minutes",
+            "unit": "minutes/session"
+        },
+        "content_interaction_rate": {
+            "description": "Proportion of available course materials accessed",
+            "unit": "percentage"
+        },
+        "submission_timeliness": {
+            "description": "Ratio of on-time submissions to total assessed tasks",
+            "unit": "ratio"
+        },
+        "discussion_participation": {
+            "description": "Number of posts or responses in course discussion forums",
+            "unit": "count/week"
+        }
+    }
+}
